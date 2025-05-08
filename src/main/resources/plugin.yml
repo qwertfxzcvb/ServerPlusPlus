@@ -1,0 +1,91 @@
+name: ServerPlusPlus
+version: '1.0'
+main: org.qfb.serverPlusPlus.ServerPlusPlus
+api-version: '1.20'
+depend: [ProtocolLib]
+
+commands:
+  spp:
+    usage: /spp
+  gm:
+    usage: /gm
+  gamemode:
+    usage: /gamemode
+  fly:
+    usage: /fly
+  weather:
+    usage: /weather
+  sun:
+    usage: /sun
+  rain:
+    usage: /rain
+  thunder:
+    usage: /thunder
+  time:
+    usage: /time
+  day:
+    usage: /day
+  midnight:
+    usage: /midnight
+  night:
+    usage: /night
+  noon:
+    usage: /noon
+  suicide:
+    usage: /suicide
+  fix:
+    usage: /fix
+  repair:
+    usage: /repair
+  gc:
+    usage: /gc
+  tps:
+    usage: /tps
+  serverinfo:
+    usage: /serverinfo
+  tpa:
+    usage: /tpa
+  tpaccept:
+    usage: /tpaccept
+  tpdeny:
+    usage: /tpdeny
+  invsee:
+    usage: /invsee
+  endersee:
+    usage: /endersee
+  vanish:
+    usage: /vanish
+    aliases: [v]
+
+permissions:
+  spp.admin:
+    default: op
+  spp.reload:
+    default: op
+  spp.repair:
+    default: op
+  spp.version:
+    default: true
+  spp.help:
+    default: true
+  spp.suicide:
+    default: true
+  spp.gc:
+    default: true
+  spp.tpa.tpa:
+    default: true
+  spp.tpa.accept:
+    default: true
+  spp.tpa.deny:
+    default: true
+  spp.invsee.invsee:
+    default: op
+  spp.invsee.endersee:
+    default: op
+  spp.vanish.see:
+    default: op
+  spp.vanish:
+    default: op
+
+
+

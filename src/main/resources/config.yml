@@ -1,0 +1,107 @@
+# 插件前缀
+prefix: "&e[QFBServer]&f "
+
+# 消息配置
+messages:
+  nopermission: "&4你没有权限"
+  only_player_can_execute: "&4此命令只能由玩家执行!"
+
+  # 天气相关
+  weather_set_sunny: "&f天气已切换至晴天"
+  weather_set_rain: "&f天气已切换至降雨"
+  weather_set_thunder: "&f天气已切换至雷暴"
+  weather_usage: "&f用法：/weather <sun|rain|thunder>"
+
+  # 时间相关
+  time_set: "&f时间已设置为"
+  time_usage_set: "&f用法：/time set <day|midnight|night|noon>"
+  time_usage_add: "&f用法：/time add <tick>"
+  time_usage_general: "&f用法：/time <set|add>"
+  time_added: "&f时间已增加至"
+  time_invalid_number: "&f请输入有效的数字"
+
+  # 杂项
+  player_suicide: "&f自杀了"
+  item_repaired: "&f你的物品已修复"
+  inventory_item_repaired: "&f已修复背包内所有物品"
+
+  # 游戏模式
+  gamemode_usage: "&f用法：/gamemode <0|1|2|3> <玩家名>"
+  gamemode_set_creative: "&f已开启创造模式"
+  gamemode_set_survival: "&f已开启生存模式"
+  gamemode_set_adventure: "&f已开启冒险模式"
+  gamemode_set_spectator: "&f已开启旁观模式"
+  gamemode_invalid: "&f无效的游戏模式！使用 0, 1, 2, 3"
+  player_not_found: "&f不在线或不存在！"
+  gamemode_set_creative_self: "&f已为你开启创造模式"
+  gamemode_set_survival_self: "&f已为你开启生存模式"
+  gamemode_set_adventure_self: "&f已为你开启冒险模式"
+  gamemode_set_spectator_self: "&f已为你开启旁观模式"
+  player_label: "&f玩家"
+  action_for: "&f已为"
+  gamemode_set_creative_target: "&f开启创造模式"
+  gamemode_set_survival_target: "&f开启生存模式"
+  gamemode_set_adventure_target: "&f开启冒险模式"
+  gamemode_set_spectator_target: "&f开启旁观模式"
+
+  # 飞行模式
+  fly_enabled: "&f开启飞行模式"
+  fly_disabled: "&f关闭飞行模式"
+  fly_enabled_self: "&f已为你开启飞行模式"
+  fly_disabled_self: "&f已为你关闭飞行模式"
+
+  # 服务器信息
+  server_info: "&f服务器信息:"
+  server_uptime: "&6运行时间："
+  server_tps: "&6当前服务器TPS="
+  server_max_memory: "&6最大内存："
+  server_allocated_memory: "&6已分配内存："
+  server_free_memory: "&6空闲内存："
+
+  # 时间单位
+  time_hour: " &6小时 "
+  time_minute: " &6分钟 "
+  time_second: " &6秒 "
+
+  # 世界信息
+  world_label: "&6世界: "
+  world_chunk: " &6区块，"
+  world_entity: " &6实体，"
+  world_tile_entity: " &6方块实体。"
+
+  # TPA
+  tpa_usage: "&f用法：/tpa <玩家名>"
+  tpa_cannot_target_self: "&6你不能TPA自己"
+  receive_tpa_request: "&f你收到了来自 &e{player}&f 的TPA请求"
+  Send_tpa_request: "&f已向 &e{player}&f 发送TPA请求"
+  tpa_request_decision: "&f使用&6/tpaccept&f 同意，使用&6/tpdeny&f 拒绝，或点击下方按钮"
+  tpa_request_time_limit: "&f5分钟后自动取消"
+  tpa_tpaccept: "&f[&6同意&f]"
+  tpa_tpdeny: "&f[&6拒绝&f]"
+  tpa_tpaccept_hover: "&6点击同意"
+  tpa_tpdeny_hover: "&6点击拒绝"
+  tpa_request_expired: "&6TPA请求已过期"
+  tpa_request_Rejected: "&6对方已拒绝你的TPA请求"
+  tpa_rejected: "&6已拒绝TPA请求"
+  tpa_request_pending: "&6你已有一个待处理的TPA请求"
+  tpa_no_pending_request: "&6你没有待处理的TPA请求"
+  tpa_player_not_online: "&6玩家不在线"
+  tpa_request_accepted: "&6已接受TPA请求"
+
+  #Invsee
+  invsee_invsee_usage: "&f用法 /invsee <玩家>"
+  invsee_endersee_usage: "&f用法 /endersee <玩家>"
+  invsee_invsee: "&f已打开 {player} 的背包"
+  invsee_endersee: "&f已打开 {player} 的末影箱"
+
+  #隐身
+  vanish_enabled: "&6你已进入隐身状态"
+  vanish_disabled: "&6你已退出隐身状态"
+  vanish_bossbar: "&7>> &f隐身中 &7<<"
+
+
+
+
+
+
+
